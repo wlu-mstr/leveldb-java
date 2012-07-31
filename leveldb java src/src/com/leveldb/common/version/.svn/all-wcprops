@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/3/trunk/src/com/leveldb/common/version
+END
+VersionSet.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/4/trunk/src/com/leveldb/common/version/VersionSet.java
+END
+Version.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/3/trunk/src/com/leveldb/common/version/Version.java
+END
+VersionEdit.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/3/trunk/src/com/leveldb/common/version/VersionEdit.java
+END

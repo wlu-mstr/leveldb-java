@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/3/trunk/src/com/leveldb/tests
+END
+LogTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/4/trunk/src/com/leveldb/tests/LogTest.java
+END
+VersionSetTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/3/trunk/src/com/leveldb/tests/VersionSetTest.java
+END
+CacheTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/3/trunk/src/com/leveldb/tests/CacheTest.java
+END
+DBTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/4/trunk/src/com/leveldb/tests/DBTest.java
+END
+TableTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/4/trunk/src/com/leveldb/tests/TableTest.java
+END
+VersionEditTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/3/trunk/src/com/leveldb/tests/VersionEditTest.java
+END
+WriteBatchTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/3/trunk/src/com/leveldb/tests/WriteBatchTest.java
+END

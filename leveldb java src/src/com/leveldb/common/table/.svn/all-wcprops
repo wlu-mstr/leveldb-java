@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/3/trunk/src/com/leveldb/common/table
+END
+BlockBuilder.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/3/trunk/src/com/leveldb/common/table/BlockBuilder.java
+END
+MergingIterator.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/3/trunk/src/com/leveldb/common/table/MergingIterator.java
+END
+BlockHandle.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/3/trunk/src/com/leveldb/common/table/BlockHandle.java
+END
+Block.java
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/3/trunk/src/com/leveldb/common/table/Block.java
+END
+IteratorWrapper.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/3/trunk/src/com/leveldb/common/table/IteratorWrapper.java
+END
+TwoLevelIterator.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/4/trunk/src/com/leveldb/common/table/TwoLevelIterator.java
+END
+Footer.java
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/3/trunk/src/com/leveldb/common/table/Footer.java
+END
+TableBuilder.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/3/trunk/src/com/leveldb/common/table/TableBuilder.java
+END

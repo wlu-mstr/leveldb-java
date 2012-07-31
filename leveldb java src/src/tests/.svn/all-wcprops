@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 31
+/svn/!svn/ver/3/trunk/src/tests
+END
+testshort.java
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/4/trunk/src/tests/testshort.java
+END
+TestByteValue.java
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/3/trunk/src/tests/TestByteValue.java
+END
+_compressionTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/3/trunk/src/tests/_compressionTest.java
+END
+testbyte2int.java
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/3/trunk/src/tests/testbyte2int.java
+END
+parm_as_returen.java
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/3/trunk/src/tests/parm_as_returen.java
+END
+testRefCh.java
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/3/trunk/src/tests/testRefCh.java
+END
+TestAll.java
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/3/trunk/src/tests/TestAll.java
+END
+Calcuator.java
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/3/trunk/src/tests/Calcuator.java
+END
+mergeLists.java
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/3/trunk/src/tests/mergeLists.java
+END

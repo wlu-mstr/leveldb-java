@@ -1,0 +1,113 @@
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/3/trunk/src/com/leveldb/common/db
+END
+Snapshot.java
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/3/trunk/src/com/leveldb/common/db/Snapshot.java
+END
+MemTableIterator.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/3/trunk/src/com/leveldb/common/db/MemTableIterator.java
+END
+SkipList.java
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/3/trunk/src/com/leveldb/common/db/SkipList.java
+END
+DBImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/4/trunk/src/com/leveldb/common/db/DBImpl.java
+END
+DBIter.java
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/3/trunk/src/com/leveldb/common/db/DBIter.java
+END
+TableCache.java
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/3/trunk/src/com/leveldb/common/db/TableCache.java
+END
+FileMetaData.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/3/trunk/src/com/leveldb/common/db/FileMetaData.java
+END
+SnapshotImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/3/trunk/src/com/leveldb/common/db/SnapshotImpl.java
+END
+LookupKey.java
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/3/trunk/src/com/leveldb/common/db/LookupKey.java
+END
+ParsedInternalKey.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/3/trunk/src/com/leveldb/common/db/ParsedInternalKey.java
+END
+DB.java
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/4/trunk/src/com/leveldb/common/db/DB.java
+END
+InternalKey.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/3/trunk/src/com/leveldb/common/db/InternalKey.java
+END
+SkipListTestMore.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/3/trunk/src/com/leveldb/common/db/SkipListTestMore.java
+END
+Builder.java
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/3/trunk/src/com/leveldb/common/db/Builder.java
+END
+MemTable.java
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/3/trunk/src/com/leveldb/common/db/MemTable.java
+END
+SnapshotList.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/3/trunk/src/com/leveldb/common/db/SnapshotList.java
+END
+Range.java
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/3/trunk/src/com/leveldb/common/db/Range.java
+END
+Compaction.java
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/3/trunk/src/com/leveldb/common/db/Compaction.java
+END

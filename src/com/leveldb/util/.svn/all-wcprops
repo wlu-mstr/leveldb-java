@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/3/trunk/src/com/leveldb/util
+END
+SequenceNumber.java
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/3/trunk/src/com/leveldb/util/SequenceNumber.java
+END
+coding.java
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/4/trunk/src/com/leveldb/util/coding.java
+END
+DefaultLogger.java
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/3/trunk/src/com/leveldb/util/DefaultLogger.java
+END
+JenkinsHash.java
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/3/trunk/src/com/leveldb/util/JenkinsHash.java
+END
+LRUCache.java
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/3/trunk/src/com/leveldb/util/LRUCache.java
+END
+logging.java
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/3/trunk/src/com/leveldb/util/logging.java
+END
+Pair.java
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/3/trunk/src/com/leveldb/util/Pair.java
+END
+Tag.java
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/3/trunk/src/com/leveldb/util/Tag.java
+END
+DefaultEnv.java
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/4/trunk/src/com/leveldb/util/DefaultEnv.java
+END
+util.java
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/3/trunk/src/com/leveldb/util/util.java
+END
+ValueType.java
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/3/trunk/src/com/leveldb/util/ValueType.java
+END
+crc32java.java
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/3/trunk/src/com/leveldb/util/crc32java.java
+END
