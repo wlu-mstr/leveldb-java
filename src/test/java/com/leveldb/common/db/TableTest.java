@@ -1,4 +1,4 @@
-package com.leveldb.tests;
+package com.leveldb.common.db;
 
 import java.util.ArrayList;
 import java.util.Collections;

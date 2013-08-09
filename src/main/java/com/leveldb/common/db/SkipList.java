@@ -10,7 +10,7 @@ import java.util.SortedSet;
 import java.util.TreeSet;
 
 import com.leveldb.common.AtomicPointer;
-import com.leveldb.common._Comparable;
+import com.leveldb.common.PairComparable;
 import com.leveldb.common.comparator.InternalKeyComparator;
 
 class Node<Key> {
@@ -79,7 +79,7 @@ class Node<Key> {
  * @param <Key>
  * @param <Comparator>
  */
-class SkipListIterator<Key, Comparator extends _Comparable<Key>> {
+class SkipListIterator<Key, Comparator extends PairComparable<Key>> {
 	// Initialize an iterator over the specified list.
 	// The returned iterator is not valid.
 	public SkipListIterator(SkipList<Key, Comparator> list) {
@@ -147,7 +147,7 @@ class SkipListIterator<Key, Comparator extends _Comparable<Key>> {
 	// Intentionally copyable
 }
 
-public class SkipList<Key, Comparator extends _Comparable<Key>> {
+public class SkipList<Key, Comparator extends PairComparable<Key>> {
 
 	// parameters
 	private final int kMaxHeight = 12;
@@ -315,7 +315,7 @@ public class SkipList<Key, Comparator extends _Comparable<Key>> {
 
 	// /////////////////////////////////////////////////////////
 	// / test cases
-	static class TestComparator extends _Comparable<Integer> {
+	static class TestComparator extends PairComparable<Integer> {
 
 		@Override
 		public int compare(Integer a, Integer b) {
@@ -329,7 +329,7 @@ public class SkipList<Key, Comparator extends _Comparable<Key>> {
 		}
 	}
 	
-	static class TestInternalKeyComparator extends _Comparable<InternalKey>{
+	static class TestInternalKeyComparator extends PairComparable<InternalKey>{
 
 		@Override
 		public int compare(InternalKey k, InternalKey k2) {

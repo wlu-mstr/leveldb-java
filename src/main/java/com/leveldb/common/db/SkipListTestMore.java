@@ -9,7 +9,7 @@ import java.util.concurrent.locks.ReentrantLock;
 import com.leveldb.common.AtomicPointer;
 import com.leveldb.common.Env;
 import com.leveldb.common.Function;
-import com.leveldb.common._Comparable;
+import com.leveldb.common.PairComparable;
 import com.leveldb.util.JenkinsHash;
 import com.leveldb.util.util;
 
@@ -112,7 +112,7 @@ public class SkipListTestMore {
 	// Current state of the test
 	State current_ = new State();
 
-	static class TestComparator extends _Comparable<Long> {
+	static class TestComparator extends PairComparable<Long> {
 
 		@Override
 		public int compare(Long a, Long b) {

@@ -1,4 +1,4 @@
-package com.leveldb.tests;
+package com.leveldb.common.db;
 
 import junit.framework.TestCase;
 import junit.framework.TestSuite;

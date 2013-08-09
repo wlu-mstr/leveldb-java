@@ -6,7 +6,7 @@ import com.leveldb.common.ByteCollection;
 import com.leveldb.common.Iterator;
 import com.leveldb.common.Slice;
 import com.leveldb.common.Status;
-import com.leveldb.common._Comparable;
+import com.leveldb.common.PairComparable;
 //import com.leveldb.common.Table;
 import com.leveldb.common.comparator.InternalKeyComparator;
 import com.leveldb.common.db.MemTable.KeyComparator;
@@ -106,7 +106,7 @@ public class MemTable {
 	 * we need to extract the internal key first before compare. internal_key:
 	 * userkey|[sequencenumber << 8 | type]
 	 */
-	class KeyComparator extends _Comparable<Slice> {
+	class KeyComparator extends PairComparable<Slice> {
 		InternalKeyComparator comparator;
 
 		KeyComparator(InternalKeyComparator c) {

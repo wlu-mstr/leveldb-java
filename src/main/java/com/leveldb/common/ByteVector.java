@@ -56,40 +56,42 @@ public class ByteVector {
 	public void clear() {
 		size = 0;
 	}
-	
-	public boolean empty(){
+
+	public boolean empty() {
 		return size == 0;
 	}
-	
+
 	/*
 	 * may truncate or expend the array
 	 */
-	public void resize(int inewsize){
+	public void resize(int inewsize) {
 		// append zero, side effect: expend the array
-		if(inewsize > size){
-			append(new byte[inewsize - size]); 
+		if (inewsize > size) {
+			append(new byte[inewsize - size]);
 		}
 		size = inewsize;
 	}
-	
-	public byte get(int idx){
+
+	public byte get(int idx) {
 		return data[idx];
 	}
-	
-	public void set(int idx, byte b){
+
+	public void set(int idx, byte b) {
 		data[idx] = b;
 	}
-	
+
 	/**
 	 * reset data
-	 * @param b	the new data
+	 * 
+	 * @param b
+	 *            the new data
 	 */
-	public void set(byte[] b){
+	public void set(byte[] b) {
 		this.size = 0;
 		this.append(b);
 	}
-	
-	public void increase(int idx, int delta){
+
+	public void increase(int idx, int delta) {
 		data[idx] += delta;
 	}
 
@@ -98,38 +100,38 @@ public class ByteVector {
 		System.arraycopy(data, 0, retdata, 0, size);
 		return retdata;
 	}
-	
+
 	// return reference to the raw bytes, with zeros at tail.
 	// need to take care when using, give start--end
-	public byte[] getRawRef(){
+	public byte[] getRawRef() {
 		return data;
 	}
-	
-	public void resetData(byte[] b){
+
+	public void resetData(byte[] b) {
 		data = util.deepCopy(b);
 	}
 
 	public int getSize() {
 		return size;
 	}
-	
-	public void setSize(int s){
+
+	public void setSize(int s) {
 		size = s;
 	}
 
 	public int getCapacity() {
 		return capacity;
 	}
-	
-	public int compareTo(byte[] other, int offset, int length){
+
+	public int compareTo(byte[] other, int offset, int length) {
 		return util.compareTo(data, 0, size, other, offset, length);
 	}
-	
-	public int compareTo(byte[] other){
+
+	public int compareTo(byte[] other) {
 		return compareTo(other, 0, other.length);
 	}
-	
-	public String toString(){
+
+	public String toString() {
 		return util.toString(getData());
 	}
 
@@ -141,15 +143,15 @@ public class ByteVector {
 			System.out.println(bv.getSize() + "\t" + bv.getCapacity() + "\t"
 					+ util.toString(bv.getData()));
 		}
-		//bv.clear();
-		
+		// bv.clear();
+
 		System.out.println("=================================================");
 		for (int i = 0; i < 10; i++) {
 			bv.append("testString".getBytes());
 			System.out.println(bv.getSize() + "\t" + bv.getCapacity() + "\t"
 					+ util.toString(bv.getData()));
 		}
-		
+
 		System.out.println(bv.compareTo("uest".getBytes()));
 	}
 

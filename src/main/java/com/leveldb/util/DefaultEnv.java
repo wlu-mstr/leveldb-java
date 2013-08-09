@@ -262,7 +262,7 @@ public class DefaultEnv extends Env {
 
 	@Override
 	public String GetTestDirectory() {
-		String path = "C:/tmp/leveldb-" + Thread.currentThread().getId();
+		String path = "/tmp/leveldb-" + Thread.currentThread().getId();
 		CreateDir(path);
 		return path;
 	}

@@ -1,10 +1,8 @@
-package com.leveldb.tests;
+package com.leveldb.common.db;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
-
-import sun.font.StrikeCache;
 
 import com.leveldb.common.AtomicPointer;
 import com.leveldb.common.Comparator;
@@ -474,6 +472,7 @@ public class DBTest extends TestCase {
 			ASSERT_EQ("v2", Get(key));
 			ASSERT_EQ("v1", Get(key, s1));
 			db_.ReleaseSnapshot(s1);
+
 		}
 	}
 
@@ -482,6 +481,7 @@ public class DBTest extends TestCase {
 		// below generates two level-0 files where the earlier one comes
 		// before the later one in the level-0 file list since the earlier
 		// one has a smaller "smallest" key.
+
 		ASSERT_OK(Put("bar", "b"));
 		ASSERT_OK(Put("foo", "v1"));
 		dbfull().TEST_CompactMemTable();
@@ -1464,17 +1464,18 @@ public class DBTest extends TestCase {
 		assertTrue(CountFiles() < num_files + 5);
 	}
 
-	// TODO: without reopenning, the number is not the same, guess: didn't delete files when compactings
+	// TODO: without reopenning, the number is not the same, guess: didn't
+	// delete files when compactings
 	public void testFilesDeletedAfterCompaction() {
 		ASSERT_OK(Put("foo", "v2"));
 		Compact("a", "z");
-		//Reopen();
+		// Reopen();
 		int num_files = CountFiles();
 		for (int i = 0; i < 10; i++) {
 			ASSERT_OK(Put("foo", "v2"));
 			Compact("a", "z");
 		}
-		//Reopen();
+		// Reopen();
 		assertTrue(CountFiles() == num_files);
 	}
 
