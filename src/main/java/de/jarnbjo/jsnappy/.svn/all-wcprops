@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/3/trunk/src/de/jarnbjo/jsnappy
+END
+SnappyDecompressor.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/3/trunk/src/de/jarnbjo/jsnappy/SnappyDecompressor.java
+END
+TableBasedCompressor.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/3/trunk/src/de/jarnbjo/jsnappy/TableBasedCompressor.java
+END
+IntIterator.java
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/3/trunk/src/de/jarnbjo/jsnappy/IntIterator.java
+END
+SnzInputStream.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/3/trunk/src/de/jarnbjo/jsnappy/SnzInputStream.java
+END
+SnappyCompressor.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/3/trunk/src/de/jarnbjo/jsnappy/SnappyCompressor.java
+END
+SnzMTInputStream.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/3/trunk/src/de/jarnbjo/jsnappy/SnzMTInputStream.java
+END
+SnzOutputStream.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/3/trunk/src/de/jarnbjo/jsnappy/SnzOutputStream.java
+END
+IntListHashMap.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/3/trunk/src/de/jarnbjo/jsnappy/IntListHashMap.java
+END
+Buffer.java
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/3/trunk/src/de/jarnbjo/jsnappy/Buffer.java
+END
+MapBasedCompressor.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/3/trunk/src/de/jarnbjo/jsnappy/MapBasedCompressor.java
+END
+FormatViolationException.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/3/trunk/src/de/jarnbjo/jsnappy/FormatViolationException.java
+END

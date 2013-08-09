@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/3/trunk/src/com/leveldb/common/log
+END
+RecordType.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/3/trunk/src/com/leveldb/common/log/RecordType.java
+END
+Reader.java
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/4/trunk/src/com/leveldb/common/log/Reader.java
+END
+logformat.java
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/3/trunk/src/com/leveldb/common/log/logformat.java
+END
+Writer.java
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/3/trunk/src/com/leveldb/common/log/Writer.java
+END

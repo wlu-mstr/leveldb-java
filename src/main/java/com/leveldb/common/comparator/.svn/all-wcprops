@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/3/trunk/src/com/leveldb/common/comparator
+END
+BytewiseComparatorImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/3/trunk/src/com/leveldb/common/comparator/BytewiseComparatorImpl.java
+END
+InternalKeyComparator.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/3/trunk/src/com/leveldb/common/comparator/InternalKeyComparator.java
+END
